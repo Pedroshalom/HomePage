@@ -230,6 +230,17 @@ body {
     height: 200px;
 }
 
+.itens-cardapio .bolsas {
+    width: 100%;
+    height: 260px;
+}
+
+.itens-cardapio .bolsas2 {
+    width: 100%;
+    height: 240px;
+}
+
+
 .itens-cardapio .info .pedir {
     width: 200px;
     height: 35px;
@@ -349,6 +360,20 @@ footer {
     justify-content: center;
 }
 
+.cardapio .opcao {
+    font-size: 25px;
+    margin-top: 15px;
+    text-decoration: underline;
+}
+
+.itens-cardapio h2 {
+    font-size: 25px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+
+
 @media (max-width: 1200px) {
     .main {
         display: block;
@@ -380,6 +405,17 @@ footer {
 
     .nomes {
         text-decoration: none;
+    }
+
+    .cardapio .opcao {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+
+    .itens-cardapio h2 {
+        font-size: 18px;
+        margin-top: 15px;
+        text-align: center;
     }
 
     .content .list-menu{
